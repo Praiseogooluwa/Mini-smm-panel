@@ -47,29 +47,38 @@ node index.js
 🔗 API Endpoints
 Endpoint	Method	Description
 
-/	        GET	    Home route (test if server is live)
+/	            GET	          Home route (test if server is live)
 
-/services	GET	    Fetch available SMM services
+/services	    GET	          Fetch available SMM services
 
-/balance	  GET	    Check your SMM panel balance
+/balance	    GET	          Check your SMM panel balance
 
-/order	    POST	  Place an SMM order
+/order	      POST	        Place an SMM order
 
-/add-funds	POST	  Simulate user funding their wallet
+/add-funds	  POST	        Simulate user funding their wallet
 
 🛒 Order Format (POST /order)
 
+
 {
+  
   "service": 1234,
+  
   "link": "https://instagram.com/your-profile",
+  
   "quantity": 100
+
 }
 
 💸 Add Funds Format (POST /add-funds)
 
+
 {
+ 
   "userId": "user123",
+  
   "amount": 500
+
 }
 
 📁 Folder Structure
