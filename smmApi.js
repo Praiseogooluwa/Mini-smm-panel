@@ -3,7 +3,7 @@ const axios = require("axios");
 require("dotenv").config();
 
 // ✅ Ensure your .env file has:
-// SMM_API_KEY=88fb783c467552aa7ddf0cd1b6594d31
+// SMM_API_KEY=Your_Api_Key
 // SMM_API_URL=https://smmprovider.co/api/v2
 
 const API_KEY = process.env.SMM_API_KEY;
