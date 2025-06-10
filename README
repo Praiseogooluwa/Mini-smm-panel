@@ -1,6 +1,6 @@
 # 🚀 Mini SMM Panel Backend (Node.js + Express)
 
-This is a **Mini SMM (Social Media Marketing) Panel Backend** project built using **Node.js**, **Express**, and the **smmprovider.co API**. It allows you to interact with the SMM provider, place social media service orders, check your balance, and simulate wallet top-ups without a frontend.
+This is a *Mini SMM (Social Media Marketing) Panel Backend* project built using **Node.js**, **Express**, and the **smmprovider.co API**. It allows you to interact with the SMM provider, place social media service orders, check your balance, and simulate wallet top-ups without a frontend.
 
 ---
 
