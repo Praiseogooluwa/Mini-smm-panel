@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Except the folders we want
+!orders/
+!data/
+!.gitignore
