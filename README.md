@@ -59,6 +59,7 @@ Endpoint	Method	Description
 
 🛒 Order Format (POST /order)
 
+---
 
 {
   
@@ -70,6 +71,8 @@ Endpoint	Method	Description
 
 }
 
+---
+
 💸 Add Funds Format (POST /add-funds)
 
 
@@ -80,6 +83,8 @@ Endpoint	Method	Description
   "amount": 500
 
 }
+
+---
 
 📁 Folder Structure
 
